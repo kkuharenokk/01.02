@@ -1,0 +1,46 @@
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int s1, s2;
+//	cin >> s1 >> s2;
+//	if (s1 > s2)
+//		cout << "s2 mazak neka sk1";
+//	else cout << "s1 mazak neka sk2"<< endl;
+//
+//	if (s1<0)
+//		cout << "viss ir pareizi!";
+//	else
+//		cout << "uzraksti negativu skaitli!" << endl;
+//	if (s2 < 0)
+//		cout << "viss ir pareizi!";
+//	else
+//		cout << "uzraksti negativu skaitli!" << endl;
+//	if (s1 % 2 == 0)
+//		cout << "para";
+//	else
+//		cout << "nepara" << endl;
+//	if (s2 % 2 == 0)
+//		cout << "para";
+//	else
+//		cout << "nepara";
+//}
+
+#include <iostream>
+using namespace std;
+int main() {
+	int atz;
+	cin >> atz;
+	if (atz >= 90 && atz <= 100)
+		cout << "A" << endl;
+	if (atz >= 80 && atz <90)
+		cout << "B" << endl;
+	if (atz >= 70 && atz <80)
+		cout << "C" << endl;
+	if (atz >= 60 && atz <70)
+		cout << "D" << endl;
+	if (atz >=40 && atz <60)
+		cout << "E" << endl;
+	if (atz < 40)
+		cout << "F" << endl;
+
+}
