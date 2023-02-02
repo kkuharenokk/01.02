@@ -44,3 +44,15 @@ int main() {
 		cout << "F" << endl;
 
 }
+
+#include <iostream>
+using namespace std;
+int main() {
+	int sk1, sk2, sk3;
+	cin >> sk1 >> sk2 >> sk3;
+	if (sk1 == sk2 && sk2 == sk3)
+		cout << "Vienadmalu" << endl;
+
+	else if (sk1 == sk2 || sk1 == sk3 || sk2 == sk3)
+		cout << "Vienadsanu" << endl;
+}
