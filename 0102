@@ -56,3 +56,83 @@ int main() {
 	else if (sk1 == sk2 || sk1 == sk3 || sk2 == sk3)
 		cout << "Vienadsanu" << endl;
 }
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 0;
+//	do {
+//		i++;
+//		cout << i *3 << endl;
+//	} while (i != 125);
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 20;
+//	do {
+//		i--;
+//		cout << i * i * i << endl;
+//	} while (i != 1);
+//}
+
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int i = 0;
+//	do {
+//		i++;
+//		cout << "1/" << i << endl;
+//	} while (i != 1000);
+//}
+
+
+//
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	
+//
+//		cout << "             *              " << endl;
+//		cout << "            ***             " << endl;
+//		cout << "           *****              " << endl;
+//		cout << "          *******             " << endl;
+//		cout << "         *********              " << endl;
+//		cout << "        ***********             " << endl;
+//		cout << "         *********             " << endl;
+//		cout << "        ***********         " << endl;
+//		cout << "       *************        " << endl;
+//		cout << "      ***************       " << endl;
+//		cout << "       *************        " << endl;
+//		cout << "      ***************       " << endl;
+//		cout << "     *****************      " << endl;
+//		cout << "    *******************     " << endl;
+//		cout << "           *****      " << endl;
+//		cout << "           *****            " << endl;
+//		cout << "           *****            " << endl;
+//		
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	string at;
+//	do {
+//		cin >> at;
+//		cout << at;
+//	} while (at != "stop");
+//}
+
+//#include <iostream>
+//using namespace std;
+//int main(){
+//string pass;
+//int mag = 0;
+//do {
+//	cout << "Enter password:" << endl;
+//	mag++;
+//	cin >> pass;
+//} while (mag != 5 && pass!= "1234");
+//
+//}
