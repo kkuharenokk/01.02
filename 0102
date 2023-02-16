@@ -136,3 +136,72 @@ int main() {
 //} while (mag != 5 && pass!= "1234");
 //
 //}
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+	/*vector <int> sk{ 1,2,3,1,2 };
+	if (sk[0] == 1)
+		cout << "sk 1 ir 1. vietaa" << endl;
+	if (sk[1] == 1)
+		cout << "sk 1 ir 2. vietaa" << endl;
+	if (sk[2] == 1)
+		cout << "sk 1 ir 3. vietaa" << endl;
+	if (sk[3] == 1)
+		cout << "sk 1 ir 4. vietaa" << endl;
+	if (sk[4] == 1)
+		cout << "sk 1 ir 5. vietaa" << endl;
+}*/
+/*vector <int> sk{ 1,2,3,1,2 };
+if (sk[0] == 4)
+	cout << "sk 4 ir 1. vietaa" << endl;
+if (sk[0] != 4)
+	cout << "sk 4 nav 1. vietaa" << endl;
+if (sk[1] == 4)
+	cout << "sk 4 ir 2. vietaa" << endl;
+if (sk[1] != 4)
+	cout << "sk 4 nav 2. vietaa" << endl;
+if (sk[2] == 4)
+	cout << "sk 4 ir 3. vietaa" << endl;
+if (sk[2] != 4)
+	cout << "sk 4 nav 3. vietaa" << endl;
+if (sk[3] == 4)
+	cout << "sk 4 ir 4. vietaa" << endl;
+if (sk[3] != 4)
+	cout << "sk 4 nav 4. vietaa" << endl;
+if (sk[4] == 4)
+	cout << "sk 4 ir 5. vietaa" << endl;
+if (sk[4] != 4)
+	cout << "sk 4 nav 5. vietaa" << endl;
+}*/
+/*string atb, num;
+vector<string> code{ "+1", "+44", "+86", "+91", "+1", "+61" };
+vector<string> country{ "USA", "UK", "China", "India", "Canada", "Australia" };
+cin >> atb>> num;
+if (code[0] == atb) { cout << country[0] << atb << num << endl; }
+if (code[1] == atb) { cout << country[1] << atb << num << endl; }
+if (code[2] == atb) { cout << country[2] << atb << num << endl; }
+if (code[3] == atb) { cout << country[3] << atb << num << endl; }
+if (code[4] == atb) { cout << country[4] << atb << num << endl; }
+if (code[5] == atb) { cout << country[5] << atb << num << endl; }
+if (code[0] != atb && code[1] != atb && code[2] != atb && code[3] != atb && code[4] != atb && code[5] != atb) { cout << "we dont this country in our list"; }
+}*/
+/*int atz;
+vector<int> atzi{ 3,8,7,4 };
+vector<string> vards{ "Anna", "Antons", "Vlads", "Artemijs" };
+cin >> atz;
+if (atzi[0] == atz) { cout << vards[0]  << endl; }
+if (atzi[1] == atz) { cout << vards[1]  << endl; }
+if (atzi[2] == atz) { cout << vards[2]  << endl; }
+if (atzi[3] == atz) { cout << vards[3]  << endl; }
+if (atzi[0] != atz && atzi[1] != atz && atzi[2] != atz && atzi[3] != atz) { cout << "nav tadas atzimes" << endl; }
+}*/
+	/*vector<int> sk{ 2,3,5,7 };
+	cout << sk[0] * sk[0] << endl;
+	cout << sk[1] * sk[1] << endl;
+	cout << sk[2] * sk[2] << endl;
+	cout << sk[3] * sk[3] << endl;
+}*/
