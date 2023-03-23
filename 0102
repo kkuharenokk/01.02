@@ -205,3 +205,55 @@ if (atzi[0] != atz && atzi[1] != atz && atzi[2] != atz && atzi[3] != atz) { cout
 	cout << sk[2] * sk[2] << endl;
 	cout << sk[3] * sk[3] << endl;
 }*/
+CREATE TABLE EMPLOYEE (
+  emlpoye_ID INTEGER NOT NULL,
+  kurjera_Vards TEXT NOT NULL,
+  kurjera_Uzvards TEXT NOT NULL,
+  customer_ID INTEGER NOT NULL,
+  customer_name TEXT NOT NULL,
+  pilseta TEXT NOT NULL
+);
+-- create
+CREATE TABLE EMPLOYEE (
+  ID INTEGER PRIMARY KEY,
+  kurjera_Vārds TEXT NOT NULL,
+  kurjera_Uzvārds TEXT NOT NULL,
+  rajons TEXT NOT NULL,
+  vecums INTEGER NOT NULL,
+  dzimums TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Anna', 'Kuzņecova', 'Rīga', 25, 'sieviete');
+INSERT INTO EMPLOYEE VALUES (2, 'Jeļizaveta', 'Vasiļjeva', 'Jūrmala', 46,'sieviete');
+INSERT INTO EMPLOYEE VALUES (3, 'Artūrs', 'BLūsiņš', 'Rīga', 21,'vīrietis');
+INSERT INTO EMPLOYEE VALUES (4, 'Polina', 'Lapova', 'Daugavpils', 32,'sieviete');
+INSERT INTO EMPLOYEE VALUES (5, 'Staņislavs', 'Tarnavskis', 'Ogre', 19,'vīrietis');
+INSERT INTO EMPLOYEE VALUES (6, 'Evelīna', 'Krūmiņa', 'Olaine', 25,'sieviete');
+
+
+
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE vecums>45;
+SELECT * FROM EMPLOYEE WHERE rajons='Rīga' and dzimums='sieviete';
+SELECT * FROM EMPLOYEE WHERE rajons='Ogre' and dzimums='vīrietis';
+SELECT AVG(vecums) FROM EMPLOYEE;
+SELECT MAX(vecums) FROM EMPLOYEE;
+SELECT MIN(vecums) FROM EMPLOYEE;
+
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 1, 'Jewelry Store', 'London');
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 2, 'Bakery', 'London');
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 3, 'Cafe', 'London');
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 4, 'Restaurant', 'London');
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 1,'Jewelry Store', 'Cardiff');
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 2,'Bakery', 'Cardiff');
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 3,'Cafe', 'Cardiff');
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 4,'Restaurant', 'Cardiff');
+
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE customer_name='Bakery';
+SELECT * FROM EMPLOYEE WHERE emlpoye_ID=4 and kurjera_Uzvards='Anderson';
+SELECT AVG(customer_ID) FROM EMPLOYEE;
+SELECT MIN(customer_ID) FROM EMPLOYEE;
